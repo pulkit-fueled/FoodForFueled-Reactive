@@ -31,6 +31,13 @@ class RestaurantListViewController: UIViewController {
 
 //			dsfjhsdfhjfd
 			[weak self]
+//			sadjgasdjsadhjd
+
+
+
+
+//			sadajsdsad
+//			asdhgasdgasd
 			result in
 			switch result {
 			case .failure(let error):
