@@ -39,7 +39,7 @@ class RestaurantListViewController: UIViewController {
 
 	//MARK: - Private 
 	private func handleError(error: Error) {
-
+		print(error)
 	}
 
 	private func handleSuccess(restaurantResponseModel: RestaurantResponseModel) {
