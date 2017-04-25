@@ -26,6 +26,10 @@ class RestaurantListViewController: UIViewController {
 		tableView.dataSource = tableManager
 
 		disposable += viewModel.fetchrestaurants().startWithResult {
+
+
+
+//			dsfjhsdfhjfd
 			[weak self]
 			result in
 			switch result {
@@ -40,7 +44,7 @@ class RestaurantListViewController: UIViewController {
 
 
 
-	
+
 
 	//MARK: - Private 
 	private func handleError(error: Error) {
